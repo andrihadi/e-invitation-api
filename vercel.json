@@ -38,6 +38,17 @@
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
-        }
+        },
+        {
+            "src": "/api/comment",
+            "methods": ["GET"],
+            "dest": "https://e-invitation-api.vercel.app/api/comment",
+            "headers": [
+              {
+                "key": "Access-Control-Allow-Origin",
+                "value": "https://e-invitation-cici-reyhan.vercel.app"
+              }
+            ]
+          }
     ]
 }
