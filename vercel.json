@@ -42,7 +42,7 @@
         {
             "src": "/api/comment",
             "methods": ["GET"],
-            "dest": "https://e-invitation-api.vercel.app/api/comment",
+            "dest": "*/api/comment",
             "headers": [
               {
                 "key": "Access-Control-Allow-Origin",
