@@ -42,9 +42,9 @@
         {
             "src": "/api/comment",
             "methods": ["GET"],
-            "dest": "https://e-invitation-api.vercel.app/api/comment",
+            "dest": "https://e-invitation-api.vercel.app/api/comment", 
             "headers": {
-              "Access-Control-Allow-Origin": "https://e-invitation-cici-reyhan.vercel.app"
+              "Access-Control-Allow-Origin": "https://*.vercel.app"
             }
         }
     ]
